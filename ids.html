@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I'D – Free Fire Account Marketplace | FF I'D BUY SELL BD</title>
+<meta name="description" content="সব Free Fire আইডি দেখুন, ফিল্টার করুন এবং দাম অনুযায়ী সাজান।">
+<meta property="og:type" content="website">
+<meta property="og:title" content="I'D – Free Fire Account Marketplace | FF I'D BUY SELL BD">
+<meta property="og:description" content="সব Free Fire আইডি দেখুন, ফিল্টার করুন এবং দাম অনুযায়ী সাজান।">
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/app.js" defer></script>
+</head>
+<body data-page="ids">
+<div id="site-header"></div>
+<main id="main">
+<section><div class="wrap">
+ <h1>আইডি মার্কেটপ্লেস</h1>
+ <div class="toolbar" role="search">
+  <div class="seg" id="seg" role="group" aria-label="স্ট্যাটাস ফিল্টার">
+   <button type="button" data-s="all" aria-pressed="true">সব আইডি</button>
+   <button type="button" data-s="available" aria-pressed="false">আইডি আছে</button>
+   <button type="button" data-s="sold" aria-pressed="false">বিক্রি হয়েছে</button></div>
+  <div class="fields">
+   <label>খুঁজুন (UID / নাম)<input id="f-q" type="search" placeholder="UID বা নাম" autocomplete="off"></label>
+   <label>সাজান<select id="f-sort"><option value="new">নতুন আগে</option><option value="lo">দাম: কম → বেশি</option><option value="hi">দাম: বেশি → কম</option></select></label>
+   <label>লেভেল<select id="f-level"><option value="0">সব লেভেল</option><option value="50">50+</option><option value="60">60+</option><option value="70">70+</option></select></label>
+   <label>Prime Level<select id="f-prime"><option value="">সব</option></select></label>
+  </div>
+  <div class="acts"><button class="btn ghost sm" type="button" id="reset">ফিল্টার রিসেট</button><strong id="count" aria-live="polite"></strong></div>
+ </div>
+ <div class="grid" id="grid"><p>লোড হচ্ছে…</p></div>
+ <div class="empty" id="empty" hidden><h2>বর্তমানে কোনো আইডি নেই</h2><p>নতুন Free Fire আইডি যুক্ত হলে এখানে দেখা যাবে।</p></div>
+</div></section>
+<dialog id="dlg" aria-labelledby="dlg-t"><div class="dlg" id="dlg-body"></div></dialog>
+</main>
+<div id="site-footer"></div>
+</body>
+</html>
