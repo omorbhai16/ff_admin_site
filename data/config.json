@@ -1,0 +1,24 @@
+{
+  "siteName": "FF I'D BUY SELL BD",
+  "admin": "JAHID HASSAN",
+  "contacts": [
+    {
+      "key": "facebook",
+      "label": "Facebook",
+      "value": "Facebook Page",
+      "url": "https://www.facebook.com/share/1DohugESDY/"
+    },
+    {
+      "key": "telegram",
+      "label": "Telegram",
+      "value": "t.me/ffid_buy_sell_bd",
+      "url": "https://t.me/ffid_buy_sell_bd"
+    },
+    {
+      "key": "whatsapp",
+      "label": "WhatsApp",
+      "value": "+8801400629201",
+      "url": "https://wa.me/8801400629201"
+    }
+  ]
+}
